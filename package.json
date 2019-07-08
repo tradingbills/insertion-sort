@@ -1,0 +1,20 @@
+{
+  "name": "insertionSort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "insertionSort.js",
+  "scripts": {
+    "test": "tape -r @babel/register src/*-spec.js | tap-spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/register": "^7.4.4",
+    "tap-spec": "^5.0.0",
+    "tap-summary": "^4.0.0",
+    "tape": "^4.11.0"
+  }
+}
