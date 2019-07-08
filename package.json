@@ -4,7 +4,8 @@
   "description": "",
   "main": "insertionSort.js",
   "scripts": {
-    "test": "tape -r @babel/register src/*-spec.js | tap-spec"
+    "test": "tape -r @babel/register src/*-spec.js | tap-spec",
+    "app": "node -r @babel/register src/app.js"
   },
   "keywords": [],
   "author": "",
